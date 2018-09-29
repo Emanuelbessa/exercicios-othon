@@ -1,0 +1,26 @@
+#label-nome, #label-email {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+
+#name, #email {
+    width: 70%;
+}
+
+#login{
+    border: 2px solid;
+    text-align: center;
+    margin-top: 0.5%;
+    margin-left: 46%;
+    margin-right: 33%;
+}
+
+#centra-botao {
+    text-align: center;
+}
+
+#botao {
+    border-radius: 3px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}

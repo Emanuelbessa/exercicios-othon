@@ -2,13 +2,14 @@
     <link rel="stylesheet" href="styles.css">
     <body>
         <?php
-            $name = $email = "";
+            $name = $_GET["name"];
+            $email = $_GET["email"];
 
             if($_SERVER["REQUEST_METHOD"] == "GET"){
-                if($_GET["name"] == "Murilo" and $_GET["email"]=="muriloandradealmeida@gmail.com"){
-                    echo "Welcome ", $_GET["name"], "<br>"; 
+                if($name == "Murilo" and $email=="muriloandradealmeida@gmail.com"){
+                    echo "Welcome ", $name, "<br>"; 
                     
-                    echo "Your email address is: ", $_GET["email"];
+                    echo "Your email address is: ", $email;
                 }
             }
         ?>

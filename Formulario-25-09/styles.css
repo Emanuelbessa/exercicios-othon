@@ -3,6 +3,10 @@
     text-align: left;
 }
 
+#form {
+    margin-top: 5%;
+}
+
 #name, #email {
     width: 70%;
 }
@@ -10,9 +14,8 @@
 #login{
     border: 2px solid;
     text-align: center;
-    margin-top: 0.5%;
-    margin-left: 46%;
-    margin-right: 33%;
+    width: 25%;
+    margin: 0 auto;
 }
 
 #centra-botao {
